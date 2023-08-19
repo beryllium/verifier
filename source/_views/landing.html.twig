@@ -2,14 +2,10 @@
 
 {% block content_wrapper %}
     {% block jumbo_wrapper %}
-        <header class="md:flex bg-sky-900 py-20 items-center">
-            <div class="md:flex w-2/3 mx-auto">
-            <div class="md:flex-shrink-0 px-20 mb-10 md:mb-0 md:w-1/2">
-                <img class="rounded-b-full md:w-56 w-32 mx-auto border-sky-200 border-8 p-6" src="{{ site.url }}/build/jackson/512x512.png" alt="Jackson posing for a photograph">
-            </div>
-            <div class="mt-4 md:mt-0 md:ml-6 md:w-1/2">
+        <header class="md:flex bg-sky-900 py-14 items-center">
+            <div class="mt-4 md:mt-0 md:ml-20 md:w-1/3">
                 <div class="uppercase tracking-wide text-2xl text-white font-bold">{{ site.title }}</div>
-                <a href="#" class="block mt-1 text-xl leading-tight font-semibold text-sky-200 hover:underline leading-relaxed">{{ page.product_lede }}</a>
+                <span class="block mt-1 text-xl leading-tight font-semibold text-sky-200 leading-relaxed">{{ page.product_lede }}</span>
                 <hr>
                 <p class="mt-2 text-lg text-gray-200 leading-snug">{{ page.product_blurb }}</p>
             </div>
