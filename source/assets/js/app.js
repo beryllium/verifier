@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let safeValue = encoder.innerHTML;
 
         template.innerHTML = '' +
-            '<div class="border rounded bg-white border-black px-16 py-6 w-1/2">' +
+            '<div class="border rounded bg-white border-black px-16 py-6 max-w-xl">' +
             '<h2 class="text-2xl font-serif font-bold mb-4 text-center">?' + safeKey + '=</h2>' +
             '<p class="queryValue bg-gray-300 font-mono font-medium text-lg px-2 py-1 border border-slate-400 rounded">' + safeValue + '</p>' +
             '<button class="copy border rounded rounded-lg px-3 py-1 bg-cyan-200 hover:bg-cyan-400 shadow-inner hover:shadow mt-5">COPY</button>' +
