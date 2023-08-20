@@ -1,9 +1,9 @@
 {
-    "name": "beryllium/sculpin-tailwind-landing-skeleton",
+    "name": "beryllium/verifier",
     "description": "Skeleton for Sculpin-based landing page websites",
     "homepage": "https://whateverthing.com",
     "keywords": ["sculpin", "sculpin-skeleton"],
-    "license": "MIT",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "Kevin Boyd",
