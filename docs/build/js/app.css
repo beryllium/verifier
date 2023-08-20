@@ -1,0 +1,51 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./source/assets/css/app.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+@tailwind base;
+p {
+  @apply pb-4;
+}
+
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply text-blue-400;
+}
+
+a:visited {
+  @apply text-purple-500;
+}
+
+nav a,
+nav a:hover,
+nav a:visited {
+  @apply text-white;
+}
+
+.img-flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+h1 {
+  @apply font-black text-xl;
+}
+
+ul {
+  @apply list-disc list-inside;
+}
+
+ol {
+  @apply list-decimal list-inside;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoianMvYXBwLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTtBQUVBO0VBQ0U7QUFBRjs7QUFHQTtFQUNFO0FBQUY7O0FBSUE7RUFDRTtBQURGOztBQUlBO0VBQ0U7QUFERjs7QUFJQTs7O0VBR0U7QUFERjs7QUFJQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQURGOztBQUlBO0VBQ0U7QUFERjs7QUFJQTtFQUNFO0FBREY7O0FBSUE7RUFDRTtBQURGOztBQUlBO0FBRUEsb0IiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zb3VyY2UvYXNzZXRzL2Nzcy9hcHAuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJAdGFpbHdpbmQgYmFzZTtcblxucCB7XG4gIEBhcHBseSBwYi00O1xufVxuXG5hIHtcbiAgQGFwcGx5IHRleHQtYmx1ZS03MDA7XG59XG5cblxuYTpob3ZlciB7XG4gIEBhcHBseSB0ZXh0LWJsdWUtNDAwO1xufVxuXG5hOnZpc2l0ZWQge1xuICBAYXBwbHkgdGV4dC1wdXJwbGUtNTAwO1xufVxuXG5uYXYgYSxcbm5hdiBhOmhvdmVyLFxubmF2IGE6dmlzaXRlZCB7XG4gIEBhcHBseSB0ZXh0LXdoaXRlO1xufVxuXG4uaW1nLWZsaXAge1xuICAtbW96LXRyYW5zZm9ybTogc2NhbGVYKC0xKTtcbiAgLW8tdHJhbnNmb3JtOiBzY2FsZVgoLTEpO1xuICAtd2Via2l0LXRyYW5zZm9ybTogc2NhbGVYKC0xKTtcbiAgdHJhbnNmb3JtOiBzY2FsZVgoLTEpO1xuICBmaWx0ZXI6IEZsaXBIO1xuICAtbXMtZmlsdGVyOiBcIkZsaXBIXCI7XG59XG5cbmgxIHtcbiAgQGFwcGx5IGZvbnQtYmxhY2sgdGV4dC14bDtcbn1cblxudWwge1xuICBAYXBwbHkgbGlzdC1kaXNjIGxpc3QtaW5zaWRlO1xufVxuXG5vbCB7XG4gIEBhcHBseSBsaXN0LWRlY2ltYWwgbGlzdC1pbnNpZGU7XG59XG5cbkB0YWlsd2luZCBjb21wb25lbnRzO1xuXG5AdGFpbHdpbmQgdXRpbGl0aWVzOyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="h-full">
+<head>
+    <title> VERIFIER | by Whateverthing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="robots" content="noindex, follow">
+    
+                <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+<body class="antialiased flex flex-col h-full bg-stone-100">
+            <header class="md:flex bg-sky-900 py-14 items-center">
+            <div class="mt-4 md:mt-0 md:ml-20 md:w-1/3">
+                <div class="uppercase tracking-wide text-2xl text-white font-bold">VERIFIER</div>
+                <span class="block mt-1 text-xl leading-tight font-semibold text-sky-200 leading-relaxed">Connect CLI applications to OAuth 1.0a APIs.</span>
+                <hr>
+                <p class="mt-2 text-lg text-gray-200 leading-snug">Verifier provides a callback target to use in your OAuth authorization flow, by converting the query string into copy-pastable values using JS.
+</p>
+            </div>
+            </div>
+        </header>
+    
+    <div class="md:flex">
+    <div class="md:w-1/3 pt-5 px-16">
+        <h2 class="text-2xl font-extrabold mb-5">Connect Your CLI</h2>
+
+        <p class="text-lg mb-3">OAuth requires a precise dance of steps to grant access to programs.</p>
+
+        <p class="text-lg mb-3">One of those steps includes a <em>callback URL</em> that receives a special <strong>oauth_verifier</strong> code.</p>
+        
+        <p class="text-lg">This code will be displayed here, among the query parameters. You can copy it and paste it into your application to continue the authorization flow.</p>
+    </div>
+
+    <div class="md:w-2/3  pt-5 mb-5 px-6 md:px-16">
+
+        <div class="">
+            <h2 class="text-2xl font-extrabold mb-10">Query Parameters:</h2>
+
+            <div id="queryParams">
+                <div id="tmpMsg">
+                    <p>scanning for query parameters ...</p>
+                    <p>looks like we didn't find any.</p>
+                    <p class="pt-10"><a href="/?demo_parameter=demo_value" class="underline text-blue-600">click here for a demo</a></p>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer class="w-full text-right border-t border-gray-400 p-3 pin-b mt-auto">
+    <span>Copyright &copy; Whateverthing.com</span>
+    <span class="pr-2 pl-2">/</span>
+    <span class="opacity-50">Powered by <a href="https://sculpin.io">Sculpin</a></span>
+</footer>
+
+<script type="text/javascript" src="/assets/js/app.js"></script>
+
+
+</body>
+</html>
