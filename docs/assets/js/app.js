@@ -2,8 +2,27 @@ document.addEventListener('DOMContentLoaded', function () {
     let contentArea = document.querySelector('div#queryParams');
     let input = new URL(window.location.href);
     let encoder = document.createElement('textarea');
-    
-    for (const [key, value] of input.searchParams) {
+
+    let params = [];
+
+    for (const[key, value] of input.searchParams.entries()) {
+        params.push([key, value]);
+    }
+
+    params.sort(
+        function (a, b) {
+            if (a[0] == 'oauth_verifier') {
+                return -1;
+            }
+            if (b[0] == 'oauth_verifier') {
+                return 1;
+            }
+
+            return (a>b?1:(a<b?-1:0));
+        }
+    );
+
+    for (const [key, value] of params) {
         document.querySelector('div#queryParams > div#tmpMsg').setAttribute('style', 'display: none');
         var template = document.createElement('div');
         template.setAttribute('class', 'mb-10 place-content-center content-center items-center');
